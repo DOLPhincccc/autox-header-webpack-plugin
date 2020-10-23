@@ -1,6 +1,6 @@
 {
   "name": "autox-header-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "plugin webpack set header ",
   "main": "index.js",
   "author": "dolphinccccc",

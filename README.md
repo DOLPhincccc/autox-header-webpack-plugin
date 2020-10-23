@@ -17,7 +17,7 @@
 安装插件
 
 ```
-npm install autox-header-webpack-plugin
+npm install autox-header-webpack-plugin -D
 
 ```
 使用插件
@@ -27,8 +27,7 @@ const AutoxHeaderWebpackPlugin = require("autox-header-webpack-plugin");
 
 //在webpack插件中添加
     plugins: [
- new SetHeader({
-        
+ new AutoxHeaderWebpackPlugin({
         base64: ,
         advancedEngines: ,
         header: 
